@@ -30,7 +30,7 @@ while True:
         elif saque > limite:
             print(f'Saque maior que o limite diario por operacao de R$ 500,00')
 
-        elif numero_saques > LIMITE_SAQUES:
+        elif numero_saques >= LIMITE_SAQUES:
             print(f'O limite de 3 saques diarios foi exedido.')
         
         elif saque > 0:
